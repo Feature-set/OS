@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mutex Lock", "Mutex Lock\Mutex Lock.csproj", "{7477EB9E-EC5B-4416-964C-01A8E24EED2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7477EB9E-EC5B-4416-964C-01A8E24EED2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7477EB9E-EC5B-4416-964C-01A8E24EED2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7477EB9E-EC5B-4416-964C-01A8E24EED2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7477EB9E-EC5B-4416-964C-01A8E24EED2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24084AEA-88D7-4068-9918-BCA2ABA791D2}
+	EndGlobalSection
+EndGlobal
