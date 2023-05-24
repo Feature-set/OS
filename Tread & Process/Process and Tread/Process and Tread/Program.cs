@@ -11,7 +11,7 @@ namespace Process_and_Tread
         static void Main(string[] args)
         {
             // 프로세스 정보 출력
-            //ProcessInfo();
+            ProcessInfo();
 
             // 프로세스와 스레드 성능 차이
             ProcessAndTreadPerformance();
@@ -25,6 +25,7 @@ namespace Process_and_Tread
             Console.WriteLine("현재 프로세스 ID (PID) : " + curProcess.Id);
             Console.WriteLine("프로세스 시작 시간 : " + curProcess.StartTime);
             Console.WriteLine("프로세스 실행 시간 : " + (DateTime.Now - curProcess.StartTime));
+            Console.WriteLine("프로세스 우선순위 : " + curProcess.BasePriority);
         }
         #endregion
 
